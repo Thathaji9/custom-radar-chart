@@ -19,12 +19,12 @@ export const Radar = ({ data, width, height }: RadarProps) => {
   return (
     <div
       style={{
-        marginTop: '10rem',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        width: '100%',
-        height: '100%',
+        marginTop: "10rem",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        width: "100%",
+        height: "100%",
       }}
     >
       <RadarGrid
@@ -33,7 +33,7 @@ export const Radar = ({ data, width, height }: RadarProps) => {
         data={data}
         axisConfig={axisConfig}
         sweepSpeed={0.0009}
-        />
+      />
     </div>
   );
 };
